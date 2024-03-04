@@ -1,0 +1,150 @@
+/* Universal styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9dcd6;
+}
+
+header {
+    padding: 24px;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+span {
+    color: #d9dcd6;
+}
+
+nav {
+    padding: 16px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    margin-left: 24px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+}
+
+h1 {font-size: 48px;}
+h2 {font-size: 40px; margin-bottom: 20px; display: block;}
+h3 {font-size: 32px;}
+h4 {font-size: 20px;}
+h5 {font-size: 16px;}
+h6 {font-size: 14px;}
+p {font-size: 16px;}
+
+/* Classes and Ids */
+.full-width-image-container {
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.full-width-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services-container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.single-service-container {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 307px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.single-service-container img {
+    max-height: 200px;
+}
+
+.benefits-container {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.single-benefit-container {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.single-benefit-container h3 {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.single-benefit-container img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+#social-media-marketing,
+#online-reputation-management,
+#search-engine-optimization {
+    scroll-margin-top: 100px;
+}
